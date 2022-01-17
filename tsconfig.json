@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"jsx": "react",
+		"declaration": true,
+		"pretty": true,
+		"rootDir": "src",
+		"sourceMap": false,
+		"strict": true,
+		"esModuleInterop": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noImplicitAny": true,
+		"outDir": "lib",
+		"lib": ["es2015", "dom"],
+		"importHelpers": true,
+		"typeRoots": ["node_modules/@types"]
+	},
+	"exclude": ["node_modules", "lib", "esm"]
+}
