@@ -16,7 +16,7 @@
     "lint:fix": "eslint \"src/**/*.{ts,tsx}\" --fix",
     "lint:types": "tsc --noEmit",
     "build:cjs": "tsc",
-    "build:es": "tsc -m esNext --outDir esm",
+    "build:es": "tsc -m esNext --outDir esm --target es2018",
     "build": "npm run build:cjs && npm run build:es",
     "prepare": "npm run build"
   },
