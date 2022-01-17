@@ -1,6 +1,6 @@
 {
   "name": "use-obs-studio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Hooks for working with OBS Studio's obs-browser plugin",
   "main": "lib/index.js",
   "module": "esm/index.js",
