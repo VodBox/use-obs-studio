@@ -136,16 +136,16 @@ export function useOBSReplayBuffer(): boolean {
 		const setReplayBufferTrue = () => setReplayBuffer(true);
 		const setReplayBufferFalse = () => setReplayBuffer(false);
 
-		window.addEventListener("obsReplayBufferStarted", setReplayBufferTrue);
-		window.addEventListener("obsReplayBufferStopped", setReplayBufferFalse);
+		window.addEventListener("obsReplaybufferStarted", setReplayBufferTrue);
+		window.addEventListener("obsReplaybufferStopped", setReplayBufferFalse);
 
 		return () => {
 			window.removeEventListener(
-				"obsReplayBufferStarted",
+				"obsReplaybufferStarted",
 				setReplayBufferTrue
 			);
 			window.removeEventListener(
-				"obsReplayBufferStopped",
+				"obsReplaybufferStopped",
 				setReplayBufferFalse
 			);
 		};
