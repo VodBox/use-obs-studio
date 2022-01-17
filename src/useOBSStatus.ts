@@ -7,8 +7,10 @@ const events: (keyof OBSStudioEventMap)[] = [
 	"obsRecordingStopped",
 	"obsRecordingPaused",
 	"obsRecordingUnpaused",
-	"obsReplayBufferStarted",
-	"obsReplayBufferStopped",
+	/* @ts-ignore */
+	"obsReplaybufferStarted",
+	/* @ts-ignore */
+	"obsReplaybufferStopped",
 	"obsVirtualcamStarted",
 	"obsVirtualcamStopped",
 ];
