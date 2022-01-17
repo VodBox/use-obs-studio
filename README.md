@@ -5,7 +5,7 @@ React hooks for working with the [obs-browser](https://github.com/obsproject/obs
 ## Install
 
 ```sh
-npm install VodBox/use-obs-studio
+npm install use-obs-studio
 ```
 
 ## Usage
@@ -136,7 +136,7 @@ export function CurrentReplayBuffer() {
 
 ### `useOBSVirtualcam`
 
--   Subscribes to receiving the current replay buffer status of OBS.
+-   Subscribes to receiving the current virtualcam status of OBS.
 
 ```tsx
 import { useOBSVirtualcam } from "use-obs-studio";
